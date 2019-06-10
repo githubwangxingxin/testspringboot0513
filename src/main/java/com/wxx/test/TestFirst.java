@@ -11,6 +11,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 public class TestFirst {
     @RequestMapping("/success")
     public String getSuccess(){
+        System.out.println ("第二次更改");
         return "test";
     }
 }
